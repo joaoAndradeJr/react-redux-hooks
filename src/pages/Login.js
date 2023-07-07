@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { LOGIN } from '../redux/reducers/user';
+import { LOGIN } from '../utils/types';
 import { useHistory } from 'react-router-dom';
 
 export default function Login() {
